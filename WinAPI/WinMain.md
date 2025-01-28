@@ -58,3 +58,6 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 }
 ```
  빌드 시 뜨게되는 창의 기본 설정을 하는 곳이다.
+ 이 곳에서 해당 창에서 출력될 커서와 아이콘 등을 설정할 수 있다.
+
+ 
