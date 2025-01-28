@@ -132,7 +132,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    return TRUE;
 }
 ```
-창을 생성하고 해당 창의 핸들을 전역변수로 저장을 하는 함수이다. CreateWindowW()를 통해 창의 이름, 사이즈, 종류 등을 설정하고 생성하게 된다.
+창을 생성하고 해당 창의 핸들을 전역변수로 저장을 하는 함수이다. CreateWindowW()를 통해 MyRegisterClass에서 설정된 클래스를 가져와서 해당 클래스를 창으로 사이즈, 종류 등을 설정하고 생성하게 된다.
 
 ShowWindow - 창을 보여주는 함수(해당 함수를 지우고 빌드 시, 창이 뜨지 않음)
 UpdateWindow - 보여진 창의 업데이트 사항이 있을시 업데이트를 해주는 함수
