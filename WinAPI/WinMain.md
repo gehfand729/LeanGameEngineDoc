@@ -158,4 +158,4 @@ InitInstance 이후 While에서 메시지 루프를 돌게 될 것이다. 메시
 
 간단하게 정리를 하면 다음 그림과 같다. 
 
-<img src="WindowsCreateProcess.png">
+<img src="Images/WindowsCreateProcess.png">
